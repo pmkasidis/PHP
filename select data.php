@@ -1,7 +1,7 @@
 <?php include "connect sql.php"; ?>
 <?php
  $sql ="SELECT * FROM .....";
- $result = $condb->query($sql);
+ $result = $condb->query($sql);//$condb in connect sql.php
 
  if($result->num_rows>0){
    while($row=$result->fetch_assoc()){
