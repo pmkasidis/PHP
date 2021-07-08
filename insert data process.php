@@ -7,4 +7,4 @@
 
   mysqli_query($condb,"INSERT INTO .....(...,...,...,...)
                        VALUES('$id','$name','$pass','$email')"); //$condb in connect sql.php
- ?>
+?>
