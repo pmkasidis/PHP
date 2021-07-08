@@ -6,5 +6,5 @@
   $email = $_POST['email']; //insert e-mail
 
   mysqli_query($condb,"INSERT INTO .....(...,...,...,...)
-                       VALUES('$id','$name','$pass','$email')");
+                       VALUES('$id','$name','$pass','$email')"); //$condb in connect sql.php
  ?>
